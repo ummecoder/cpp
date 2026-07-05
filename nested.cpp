@@ -3,15 +3,15 @@ using namespace std;
 int main()
 {
     int rows;
-    cout << " enter row number:";
+    cout << " enter number of rows:";
     cin >> rows;
-    for( int i=1;i<=rows;i++)
+    for( int i = 1;i<=rows; i++)
     {
-        for( int j =1;j<=i;j++)
+        for( int j=1; j<=i;j++)
+        {
         cout << " * ";
-
+        }
         cout << endl;
     }
-    
-    return 0;
+return 0;
 }
